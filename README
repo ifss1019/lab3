@@ -1,0 +1,16 @@
+QuestionA:
+main: LAB3.cpp
+	g++ -o main LAB3.cpp
+
+QustionB:
+		sort		insertion_sort	insertion_sort/sort
+1000		0.000194	0.010334	53
+10000		0.002587	1.05861		409
+100000		0.033051	108.188		3273
+1000000		0.391313	11534.2		29475
+
+insertion_sort/sort=n/lnn=k
+n=1000, k~144
+n=10000, k~1085
+n=100000, k~8685
+n=1000000, k~72382
